@@ -4,6 +4,7 @@
     --primaryHex: #B4E50D;
     --secodaryHex: #FF9B2F;
     --backgroundHex: #FB4141;
+    --main-clr : skyblue;
 
     --darkRGB: 120, 200, 65;
     --primaryRGB: 180, 229, 13;
@@ -13,10 +14,14 @@
 }
 
 body{
-    background-color: rgba(var(--backgroundRGB), .1) !important;
+   
+    height: 300vh;
+      background-color: var(--main-clr);
 }
 
-
+.main-clr{
+    background-color: var(--main-clr);
+}
 /* Background Colors */
 .c-bg-dark {
     background-color: var(--darkHex) !important;
