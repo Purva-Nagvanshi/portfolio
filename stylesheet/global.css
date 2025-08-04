@@ -1,74 +1,67 @@
 :root {
 
-    --darkHex: #78C841;
-    --primaryHex: #B4E50D;
-    --secodaryHex: #FF9B2F;
-    --backgroundHex: #FB4141;
-    --main-clr : skyblue;
+   --darkhex : #386641 ;
+   --primaryhex : #F97A00 ;
+   --secondaryhex : #FED16A ;
+   --backgroundhex : #FFF4A4 ;
 
-    --darkRGB: 120, 200, 65;
-    --primaryRGB: 180, 229, 13;
-    --secondaryRGB: 255, 155, 47;
-    --backgroundRGB: 251, 65, 65;
+   --c-darkrgb : rgb(56, 102, 65);
+   --c-primaryrgb : rgb(249, 122, 0);
+   --c-secondaryrgb : rgb(254, 209, 106);
+   --c-backgroundrgb : rgb(235, 208, 0);
 
 }
 
-body{
-   
-    height: 300vh;
-      /* background-color: var(--main-clr); */
-}
 
-.main-clr{
-    background-color: var(--main-clr);
-}
+
 /* Background Colors */
 .c-bg-dark {
-    background-color: var(--darkHex) !important;
+  background-color: var(--darkHex) !important;
 }
 
 .c-bg-primary {
-    background-color: var(--primaryHex) !important;
+  background-color: var(--primaryHex) !important;
 }
 
 .c-bg-secondary {
-    background-color: var(--secondaryHex) !important;
+  background-color: var(--secondaryHex) !important;
 }
 
 .c-bg-background {
-    background-color: var(--backgroundHex) !important;
+  background-color: var(--backgroundHex) !important;
 }
 
 /* Text Colors */
 .c-text-dark {
-    color: var(--darkHex) !important;
+  color: var(--darkHex) !important;
 }
 
 .c-text-primary {
-    color: var(--primaryHex) !important;
+  color: var(--primaryHex) !important;
 }
 
 .c-text-secondary {
-    color: var(--secondaryHex) !important;
+  color: var(--secondaryHex) !important;
 }
 
 .c-text-background {
-    color: var(--backgroundHex) !important;
+  color: var(--backgroundHex) !important;
 }
 
 /* Border Colors */
 .c-border-dark {
-    border-color: var(--darkHex) !important;
+  border-color: var(--darkHex) !important;
 }
 
 .c-border-primary {
-    border-color: var(--primaryHex) !important;
+  border-color: var(--primaryHex) !important;
 }
 
 .c-border-secondary {
-    border-color: var(--secondaryHex) !important;
+  border-color: var(--secondaryHex) !important;
 }
 
 .c-border-background {
-    border-color: var(--backgroundHex) !important;
+  border-color: var(--backgroundHex) !important;
+}
 }
